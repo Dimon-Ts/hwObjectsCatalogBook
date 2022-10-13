@@ -16,7 +16,7 @@ public class Main {
         System.out.println("================================================================================");
         Book book = new Book("War and Peace", 2021);
         Author author = new Author("Lev", "Tolstoy.");
-        book.getYearPublication(1999);
+        book.setYearPublication(2019);
         System.out.print("Название книги - " + book.getTitle() + " ,");
         System.out.print(" дата издания - " + book.getYearPublication() + "");
         System.out.print(" , автор : " + author.getName() + " " + author.getSurname() + " ");
